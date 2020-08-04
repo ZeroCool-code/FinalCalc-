@@ -1,0 +1,47 @@
+
+body{
+    background-image: url(1.jpg);
+    text-align: center;
+
+}
+
+input {
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid black 0.2px;
+    font-size: 20px;
+    position: relative;
+    width: 400px;
+    height: 5px;
+    margin: 0px auto;
+    padding: 20px 20px 100px 20px;
+}
+button {
+margin-top: 5px;
+padding: 20px;
+font-size: 20px;
+border-radius: 25px;
+color: black;
+background-color:orange;
+border: none;
+width: 50px;
+margin-left: 40px;
+margin-top: 10px;
+
+}
+#calculate
+{
+    width: auto;
+}
+button:hover
+{
+color: #f2f2f2;
+background-color: black;
+transition: 0.4s;
+
+}
+#calc
+{
+    width: auto;
+}
