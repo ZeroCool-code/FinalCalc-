@@ -7,7 +7,7 @@ function get (){
 var b = document.getElementsByClassName("numbers").length;
 for(var i = 0 ; i < b ; i++) {
 document.querySelectorAll('button.numbers')[i].addEventListener("click", function(){
-   var sound1 = new Audio("click.mp3");
+   var sound1 = new Audio("click old.mp3");
    sound1.play();
    var f = this.value;
    document.getElementById("result").value +=f;
@@ -29,7 +29,7 @@ document.getElementById("calc").addEventListener("click" , function(){
 })
 
 document.getElementById("clear").addEventListener("click" , function (){
-   var sound3 = new Audio("sound/clear.mp3");
+   var sound3 = new Audio("clear.mp3");
    sound3.play();
    return document.getElementById("result").value = "";
    
@@ -43,6 +43,8 @@ return document.getElementById("result").value = s;
 })
 
 document.getElementById("percentage").addEventListener("click" , function (){
+   var sound4 = new Audio("click old.mp3");
+   sound4.play();
    var lst = document.getElementById("result").value;
    var lst2 = lst * 100 ;
    return document.getElementById("result").value = lst2 + '%';
